@@ -10,3 +10,4 @@ create table IF not exists `test_table`
  `updated_at`       Datetime DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
