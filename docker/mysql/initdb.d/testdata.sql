@@ -1,3 +1,6 @@
+SET CHARSET UTF8;
+CREATE DATABASE IF NOT EXISTS sample_database DEFAULT CHARACTER SET utf8;
+
 INSERT INTO circles (id, university, circle_name, email) VALUES (1, '早稲田大学', 'タートル','xxxx1@mail.co.jp');
 INSERT INTO circles (id, university, circle_name, email) VALUES (2, '早稲田大学', 'タートル２','xxxx2@mail.co.jp');
 INSERT INTO circles (id, university ,circle_name, email) VALUES (3, '早稲田大学', 'タートル3','xxxx3@mail.co.jp');
